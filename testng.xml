@@ -1,0 +1,13 @@
+<suite name="Smoke Suite" verbose="1">
+    <test name="Advance Search Test - Selected predefined attributes and search">
+        <classes>
+            <class name="tests.AdvanceSearchTest"/>
+        </classes>
+    </test>
+    <test name="Adresar Test - try to add without login">
+        <classes>
+            <class name="tests.AdresarTest"/>
+        </classes>
+    </test>
+
+</suite>
